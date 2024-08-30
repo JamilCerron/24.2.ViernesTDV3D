@@ -10,8 +10,11 @@ namespace _24._2.TDV3DViernes
     {
         static void Main(string[] args)
         {
-           Calculadora calculadora = new Calculadora();
-            calculadora.Ejecucíon();
+            Calculadora calculadora = new Calculadora();
+            //calculadora.Ejecucíon();
+            Figuras figuras = new Figuras();
+           //figuras.Ejecucion();
+         
         }
     }
 }

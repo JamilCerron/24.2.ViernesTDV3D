@@ -58,7 +58,7 @@ namespace _24._2.TDV3DViernes
                             Console.WriteLine("2.No");
                             string entrada = Console.ReadLine();
 
-                            if (float.TryParse(entrada, out float d) && (d == 1 || d == 2))
+                            if (int.TryParse(entrada, out int d) && (d == 1 || d == 2))
                             {
                                 continuarCalculando = false;
 
